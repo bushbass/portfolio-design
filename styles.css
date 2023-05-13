@@ -77,17 +77,32 @@ nav ul {
 }
 .picture-and-info {
   display: flex;
-  justify-content: space-between;
   flex-wrap: wrap;
+  justify-content: space-between;
+}
+.headshot {
+  flex: 1 1 30%;
 }
 .headshot img {
-  width: 800px;
+  min-width: 200px;
 
   border-radius: 20px;
   border: 1px solid black;
 }
 .bio-info {
   padding-left: 30px;
+  flex: 1 1 70%;
+}
+.skill-buttons {
+  display: flex;
+  flex-wrap: wrap;
+}
+.skill-button {
+  display: inline-block;
+  background-color: black;
+  color: white;
+  padding: 7px;
+  margin: 3px;
 }
 
 /* MEDIA QUERIES */

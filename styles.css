@@ -109,7 +109,7 @@ nav ul {
   min-width: 200px;
 
   border-radius: 20px;
-  border: 1px solid black;
+  border: 2px solid rgba(248, 0, 170, 0.307);
 }
 .bio-info {
   flex: 1 1 70%;
@@ -122,7 +122,7 @@ nav ul {
   display: inline-block;
   background-color: black;
   color: white;
-  padding: 7px;
+  padding: 8px;
   margin: 3px;
   border-radius: 5px;
 }
@@ -163,7 +163,7 @@ nav ul {
   max-width: 300px;
   padding: 20px;
   flex: 1 1 300px;
-  border: 1px solid rgba(255, 0, 242, 0.652);
+  border: 2px solid rgba(248, 0, 170, 0.307);
 }
 .card h4 {
   font-size: 1.3rem;
@@ -171,6 +171,46 @@ nav ul {
 .card img {
   width: 150px;
   border-radius: 10px;
+}
+/* PROJECTS */
+.projects {
+  padding-left: 40px;
+  position: relative;
+}
+.projects-heading {
+  font-size: 2rem;
+}
+.projects-heading::before {
+  background-color: rgba(248, 0, 170, 0.307);
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 25px;
+  left: 48px;
+  width: 150px;
+  height: 25px;
+  z-index: -1;
+  border-radius: 10px;
+}
+.project-title {
+  font-size: 3rem;
+}
+.project-and-image-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 40px;
+}
+.project-area {
+  flex: 1 1 50%;
+}
+.project-img {
+  flex: 1 1 50%;
+}
+.project-img img {
+  width: 300px;
+  border-radius: 20px;
+  border: 2px solid rgba(248, 0, 170, 0.307);
 }
 
 /* MEDIA QUERIES */

@@ -42,7 +42,11 @@ img {
 /* HERO SECTION */
 .hero {
   min-height: 80vh;
-  background-color: rgb(24, 23, 23);
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(241, 1, 165),
+    rgb(0, 76, 255)
+  );
   color: rgb(232, 173, 241);
 }
 
@@ -74,7 +78,24 @@ nav ul {
 /* BIO SECTION */
 .bio {
   padding: 40px;
+  position: relative;
 }
+.skills-heading {
+  font-size: 2rem;
+}
+.skills-heading::before {
+  background-color: rgba(248, 0, 170, 0.307);
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 58px;
+  left: 48px;
+  width: 150px;
+  height: 25px;
+  z-index: -1;
+  border-radius: 10px;
+}
+
 .picture-and-info {
   display: flex;
   flex-wrap: wrap;
@@ -82,6 +103,7 @@ nav ul {
 }
 .headshot {
   flex: 1 1 30%;
+  padding-right: 20px;
 }
 .headshot img {
   min-width: 200px;
@@ -90,7 +112,6 @@ nav ul {
   border: 1px solid black;
 }
 .bio-info {
-  padding-left: 30px;
   flex: 1 1 70%;
 }
 .skill-buttons {
@@ -107,6 +128,42 @@ nav ul {
 }
 .bio-text h3 {
   font-size: 2rem;
+}
+/* FEATURED BLOGS */
+.featured-blogs {
+  padding-left: 40px;
+  position: relative;
+}
+.featured-blogs-heading::before {
+  background-color: rgba(248, 0, 170, 0.307);
+  content: '';
+  margin: 0 auto;
+  position: absolute;
+  top: 25px;
+  left: 48px;
+  width: 150px;
+  height: 25px;
+  z-index: -1;
+  border-radius: 10px;
+}
+.featured-blogs h2 {
+  font-size: 2rem;
+}
+.blog-cards-area {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  max-width: 300px;
+  padding: 20px;
+  flex: 1 1 300px;
+}
+.card h4 {
+  font-size: 1.3rem;
+}
+.card img {
+  width: 100px;
+  border-radius: 10px;
 }
 
 /* MEDIA QUERIES */

@@ -152,17 +152,24 @@ nav ul {
 .blog-cards-area {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 .card {
+  margin: 10px 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   max-width: 300px;
   padding: 20px;
   flex: 1 1 300px;
+  border: 1px solid rgba(255, 0, 242, 0.652);
 }
 .card h4 {
   font-size: 1.3rem;
 }
 .card img {
-  width: 100px;
+  width: 150px;
   border-radius: 10px;
 }
 

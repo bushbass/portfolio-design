@@ -192,27 +192,28 @@ nav ul {
   z-index: -1;
   border-radius: 10px;
 }
-.project-title {
-  font-size: 3rem;
-}
-.project-and-image-area {
+
+.project-row {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  padding-bottom: 40px;
+}
+/* .project-title {
+  font-size: 3rem;
 }
 .project-area {
   flex: 1 1 50%;
 }
 .project-img {
   flex: 1 1 50%;
-}
-.project-img img {
+} */
+/* .project-img img {
   width: 300px;
   border-radius: 20px;
   border: 2px solid rgba(248, 0, 170, 0.307);
+} */
+* {
+  border: 1px solid red;
+  padding: 5px;
 }
-
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
   .hero-statement {

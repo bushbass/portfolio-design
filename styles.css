@@ -41,18 +41,19 @@ img {
 
 /* HERO SECTION */
 .hero {
+  border-radius: 10px;
   min-height: 80vh;
   background-image: linear-gradient(
     to bottom right,
     rgb(241, 1, 165),
     rgb(0, 76, 255)
   );
-  color: rgb(232, 173, 241);
+  color: rgb(249, 208, 255);
 }
 
 nav {
   padding: 10px;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
 }
 nav ul {
   display: flex;
@@ -152,7 +153,7 @@ nav ul {
 .blog-cards-area {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 .card {
   margin: 10px 0;
@@ -195,25 +196,38 @@ nav ul {
 
 .project-row {
   display: flex;
+  flex-wrap: wrap;
 }
-/* .project-title {
+.project-info-area {
+  flex-basis: 50%;
+}
+.project-title {
   font-size: 3rem;
 }
-.project-area {
-  flex: 1 1 50%;
+.project-link {
+  background-color: blueviolet;
+
+  border-radius: 10px;
+  width: 200px;
+  padding: 10px;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  text-align: center;
 }
-.project-img {
-  flex: 1 1 50%;
-} */
-/* .project-img img {
+.project-link a {
+  color: rgb(249, 208, 255);
+  text-decoration: none;
+}
+.project-description {
+  padding-right: 30px;
+  max-width: 700px;
+}
+.project-img-area img {
   width: 300px;
   border-radius: 20px;
   border: 2px solid rgba(248, 0, 170, 0.307);
-} */
-* {
-  border: 1px solid red;
-  padding: 5px;
 }
+
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
   .hero-statement {

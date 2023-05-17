@@ -227,6 +227,24 @@ nav ul {
   border-radius: 20px;
   border: 2px solid rgba(248, 0, 170, 0.307);
 }
+/* CONTACT SECTION */
+.contact{background-color: rgb(189, 189, 255);text-align: center;}
+.contact-header{
+  font-size: 1.5rem;
+}
+.email-button-and_image{
+  display: flex;
+  justify-content: space-around;
+}
+.email-button-and_image img{
+  width: 200px
+}
+
+/* FOOTER */
+footer{
+  display: flex;justify-content: space-around;
+}
+
 
 /* MEDIA QUERIES */
 @media only screen and (max-width: 600px) {
@@ -234,3 +252,9 @@ nav ul {
     width: 100%;
   }
 }
+.featured-blogs {text-align: center;
+  padding-left: initial;}
+
+  .project-info-area {
+    flex-basis: initial;
+  }

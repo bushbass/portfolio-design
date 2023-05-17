@@ -196,7 +196,7 @@ nav ul {
 
 .project-row {
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap;padding-bottom: 25px;
 }
 .project-info-area {
   flex-basis: 50%;
@@ -241,14 +241,18 @@ nav ul {
 }
 .email-button-and_image img {
   width: 200px;
+  border-radius: 20px;
 }
 
 /* FOOTER */
 footer {
   display: flex;
-  justify-content: space-around;
-}
+  justify-content: space-around;padding:10px;
 
+}
+.footer-logos img{
+  width:25px
+}
 /* MEDIA QUERIES */
 @media only screen and (max-width: 500px) {
   .hero-statement {

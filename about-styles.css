@@ -1,0 +1,9 @@
+body {
+  font-size: 1.4rem;
+  padding: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body a {
+  text-decoration: none;
+  color: black;
+}

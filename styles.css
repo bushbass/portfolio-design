@@ -256,12 +256,16 @@ nav ul a {
   justify-content: center;
   align-items: center;
 }
-.email-button-and_image {
+.email-button-and-image {
   display: flex;
-  justify-content: space-around;
-  max-width: 700px;
+  justify-content: space-between;
+  padding: 10px;
+  /* max-width: 700px; */
 }
-.email-button-and_image img {
+.coffee-img {
+  padding: 10px;
+}
+.coffee-img img {
   width: 200px;
   border-radius: 20px;
 }
@@ -271,7 +275,7 @@ footer {
   background-color: rgb(170, 131, 131);
   font-size: 1.2rem;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 10px;
 }
 .footer-logos img {

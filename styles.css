@@ -286,6 +286,10 @@ footer {
 .contact-copyright {
   padding: 4px;
 }
+.contact-copyright a {
+  text-decoration: none;
+  color: black;
+}
 
 .footer-links {
   padding: 4px;

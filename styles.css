@@ -275,11 +275,23 @@ footer {
   background-color: rgb(170, 131, 131);
   font-size: 1.2rem;
   display: flex;
-  justify-content: space-between;
-  padding: 10px;
+  
+  justify-content: space-around;
+  
+}
+.contact-copyright {
+  padding: 4px
+}
+
+.footer-links {
+  padding: 4px
+}
+
+.footer-logos {
+  padding: 4px
 }
 .footer-logos img {
-  width: 25px;
+  width: 35px;
 }
 .footer-links a {
   text-decoration: none;

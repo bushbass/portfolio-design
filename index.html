@@ -52,7 +52,7 @@
       <h2 class="skills-heading">My Skills!</h2>
       <div class="picture-and-info">
         <div class="headshot">
-          <img src="images/me-wearing-hat.jpg" alt=" " />
+          <img class="box-shadow" src="images/me-wearing-hat.jpg" alt=" " />
         </div>
         <div class="bio-info">
           <div class="skill-buttons">
@@ -81,35 +81,32 @@
     <section id="blog" class="featured-blogs">
       <h2 class="featured-blogs-heading">Featured Blog Posts</h2>
       <div class="blog-cards-area">
-        <div class="card">
-          <h4>blog number one</h4>
-          <img src="/images/me-wearing-hat.jpg" alt="blog-thumbnail" />
+        <div class="card box-shadow">
+          <h4>Algorithm Challenges</h4>
+          <img src="/images/fcc-algo.png" alt="blog-thumbnail" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            molestiae accusantium sed minima soluta explicabo animi quae
-            laboriosam aspernatur possimus.
+            freeCodeCamp has a section on algorithms. I created videos of me
+            going through my solution for them
           </p>
-          <p><a href="#">link to post</a></p>
+          <p><a href="blog/algorithms.html">more...</a></p>
         </div>
-        <div class="card">
-          <h4>blog number one</h4>
-          <img src="/images/me-wearing-hat.jpg" alt="blog-thumbnail" />
+        <div class="card box-shadow">
+          <h4>Docker Build Problem</h4>
+          <img src="/images/Docker-Logo.jpg" alt="blog-thumbnail" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            molestiae accusantium sed minima soluta explicabo animi quae
-            laboriosam aspernatur possimus.
+            I had an issue getting a Docker container to build in Windows 10.
+            Here is how I solved the problem.
           </p>
-          <p><a href="#">link to post</a></p>
+          <p><a href="blog/docker.html">more...</a></p>
         </div>
-        <div class="card">
-          <h4>blog number one</h4>
-          <img src="/images/me-wearing-hat.jpg" alt="blog-thumbnail" />
+        <div class="card box-shadow">
+          <h4>Netlify Routing</h4>
+          <img src="/images/netlify.png" alt="blog-thumbnail" />
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio
-            molestiae accusantium sed minima soluta explicabo animi quae
-            laboriosam aspernatur possimus.
+            How to fix Netlify "page not found, broken link or entered a URL
+            that doesn't exist" error
           </p>
-          <p><a href="#">link to post</a></p>
+          <p><a href="blog/netlify.html">more...</a></p>
         </div>
       </div>
     </section>
@@ -125,7 +122,9 @@
             ><span class="skill-button">HTML</span
             ><span class="skill-button">CSS</span>
           </div>
-          <div class="project-link"><a href="zetflix.html">more...</a></div>
+          <div class="project-link">
+            <a href="projects/zetflix.html">more...</a>
+          </div>
           <p class="project-description">
             A full-stack MERN app with auth. Pulls movie data from a public API.
             Users can create an account to login and create a list of favorite
@@ -134,7 +133,7 @@
           </p>
         </div>
         <div class="project-img-area">
-          <img src="images/zetflix.jpg" alt="" />
+          <img class="box-shadow" src="images/zetflix.jpg" alt="" />
         </div>
       </div>
       <div class="project-row">
@@ -147,7 +146,9 @@
             ><span class="skill-button">HTML</span
             ><span class="skill-button">CSS</span>
           </div>
-          <div class="project-link"><a href="garden.html">more...</a></div>
+          <div class="project-link">
+            <a href="projects/garden.html">more...</a>
+          </div>
           <p class="project-description">
             A single page React app to help with garden recovery at the big box
             hardware store. When I have to bring in 20 or so pallets of various
@@ -156,7 +157,7 @@
           </p>
         </div>
         <div class="project-img-area">
-          <img src="images/garden.jpg" alt="" />
+          <img class="box-shadow" src="images/garden.jpg" alt="" />
         </div>
       </div>
     </section>
@@ -177,13 +178,13 @@
         <p>&copy 2023</p>
       </div>
       <div class="footer-links">
+        <p>Links</p>
         <p><a href="#about">about </a> <a href="#projects">projects </a></p>
         <p>
           <a href="#blog">blog </a>
           <a href="#contact">contact</a>
         </p>
       </div>
-
       <div class="footer-logos">
         <p>get in touch</p>
         <div>
@@ -211,5 +212,8 @@
         </div>
       </div>
     </footer>
+    <script>
+      console.log('Thank you for looking at my site!')
+    </script>
   </body>
 </html>

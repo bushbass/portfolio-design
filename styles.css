@@ -38,7 +38,11 @@ img {
   max-width: 100%;
   height: auto;
 }
+/* GLOBAL */
 
+.box-shadow {
+  box-shadow: 3px 3px 3px rgba(0, 76, 255, 0.5);
+}
 /* HERO SECTION */
 .hero {
   border-radius: 10px;
@@ -275,20 +279,19 @@ footer {
   background-color: rgb(170, 131, 131);
   font-size: 1.2rem;
   display: flex;
-  
+
   justify-content: space-around;
-  
 }
 .contact-copyright {
-  padding: 4px
+  padding: 4px;
 }
 
 .footer-links {
-  padding: 4px
+  padding: 4px;
 }
 
 .footer-logos {
-  padding: 4px
+  padding: 4px;
 }
 .footer-logos img {
   width: 35px;

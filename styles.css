@@ -276,11 +276,12 @@ nav ul a {
 
 /* FOOTER */
 footer {
-  background-color: rgb(170, 131, 131);
+  background-color: rgb(149, 115, 88);
   font-size: 1.2rem;
   display: flex;
 
   justify-content: space-around;
+  padding: 10px 0;
 }
 .contact-copyright {
   padding: 4px;
